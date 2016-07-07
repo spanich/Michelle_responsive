@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    background-image: url('images/green.jpg');
+    background-size: cover;
+}
+footer.page-footer{
+    margin: 0px;
+    padding: 0px;
+}
+.brand-logo{
+    margin-left: 15px;
+}
+.copyright{
+    width:25%;
+    display: inline-block;
+    padding-left: 1%
+}
+.links{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    /*height: 60%;*/
+    padding-top: 1%;
+}
+.links a{
+    margin-left: 5%;
+}
+
+
+/*<!-- About Page -->*/
+.about_body{
+     flex: 1 0 auto;
+     background-image: url('images/beach.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     text-align: center;
+}
+.about_text{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    vertical-align: middle;
+    border-radius: 7px;
+    width: 50%;
+    height: 60%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-right: 25%;
+    margin-left: 25%;
+    position: relative;
+}
